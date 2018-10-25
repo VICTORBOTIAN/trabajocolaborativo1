@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="css\normalize.css">
+   <link rel="stylesheet" type="text/css" href="css\estilo.css">
+   <title>Bases de Datos</title>
+	<style type="text/css"></style>
+
+}
+</head>
+
+    <body background="img\conexion.jpg">
+      <font  color="white">
+      	<div id="principal">
+      		<center>
+      		<h3><right> UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA </h3></right>
+      		<img src="img\unad.jpg"/>
+      		</center>
+
+      		<hr>
+      	</div>
+
+   	<!-- MENU DE NAVEGACIÓN	-->
+   	   <div id="navegador">
+   		<header>
+   		  <nav>
+          <ul>
+	       <LI>
+           <a href="index.html">INICIO</a>
+  	       <a href="lecturas.html">LECTURAS</a>
+           <a href="multimedia1.html">MULTIMEDIA1</a>
+           <a href="multimedia2.html">MULTIMEDIA2</a>
+  	       <a href="actividad.html">ACTIVIDADES</a>
+           <a href="autores.html">AUTORES</a>
+	       <a href="https://gestionbasesdatos.readthedocs.io/es/latest/Tema1/Teoria.html"> CONCEPTOS</a>
+	       <a href="http://fccea.unicauca.edu.co/old/admondatos.htm">ADMINISTRACIÓN BD</a>
+	       <a href=" https://sites.google.com/site/itjabd23/home/asignatura/plan-de-estudios/unidad-5-seguridad">SEGURIDAD</a>
+	       <a href="http://negociosvirtualesit.blogspot.com/2015/10/base-de-datos-de-un-sitio-web.html">PASOS BD  </a> </LI>
+	                </ul>
+          </nav>
+
+     	<!-- TITULO	-->
+	       <h1>
+		     <b>
+		     <br>
+		     	<marquee  direction="left" >
+	            ADMINISTRACIÓN BASES DE DATOS</center> <hr>
+	         </b>
+	            </marquee>
+           </h1>
+
+      </fond>
+        </header>
+
+
+    <!-- GALERIA EN MOVIMIENTO	-->
+    <div id="movimiento">
+          <picture>
+              <marquee scrolldelay="100" direction="up" crollamount="100" widht="100" height="300px">
+                 <center>
+                 <img src="img\busines.jpg"/>
+                 <img src="img\pixabayuno.jpg"/>
+                 <img src="img\pixabaydos.jpg"/>
+                 <img src="img\pixabaytres.png"/>
+                 <img src="img\pixabay6.jpg"/>
+                 </center>
+              </marquee>
+
+          </picture>
+      </div>
+
+
+
+
+
+
+        <section>
+          <div class="nuevo">
+        <ul class="navi">
+        <li><a href="maslecturas.html">Mas lecturas</a><ul>
+            <li><a href="primera.html">Primera</a></li>
+            <li><a href="segunda.html">Segunda</a></li>
+            <li><a href="tercera.html">Tercera</a></li>
+            <li><a href="cuarta.html">Cuarta</a></li>
+        </ul>
+        </li>
+
+        </ul>
+        </div>
+        </section>
+        <div id="explicacion4">
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+
+        <h1>TIPOS DE PROCESOS</h1>
+          <br/>
+    <h1>MULTITAREA</h1>
+
+
+      <p ALIGN="justify">La ejecución de más de un programa a la vez en una computadora. Los
+sistemas operativos multitarea (Windows, OS/2, Unix y otros) permiten
+que múltiples operaciones se ejecuten simultáneamente. Sus mayores
+beneficios se obtienen cuando se realizan tareas largas y complejas
+(como consultar una base de datos). La cantidad de programas que
+pueden ejecutarse depende de la memoria disponible, de la velocidad de
+la CPU y de la eficiencia del sistema operativo.</p>
+
+<h1>MULTIUSUARIO</h1>
+<p ALIGN="justify">
+Un SO multiusuario permite a más de un solo usuario acceder una
+computadora. Claro que, para llevarse esto a cabo, el SO también debe
+ser capaz de efectuar multitareas. Unix es el Sistema Operativo
+Multiusuario más utilizado. Debido a que Unix fue originalmente diseñado
+para correr en una minicomputadora, era multiusuario y multitarea desde
+su concepción. Actualmente se producen versiones de Unix para PC
+tales como The Santa Cruz Corporation Microport, Esix, IBM,y Sunsoft.
+Apple también produce una versión de Unix para la Machintosh llamada:
+A/UX.Unix , Unix proporciona tres maneras de permitir a múltiples
+personas utilizar la misma PC al mismo tiempo.
+<br/>
+1.Mediante: Módems
+<br/>
+2.Mediante conexión de terminales a través de puertos seriales
+<br/>
+3.Mediante Redes
+
+</p>
+<h1>MULTIPROCESO</h1>
+
+      <p ALIGN="justify">Las computadoras que tienen más de un CPU son llamadas
+multiproceso. Un sistema operativo multiproceso coordina las
+operaciones de las computadoras multiprocesadoras. Ya que cada CPU
+en una computadora de multiproceso puede estar ejecutando una
+instrucción, el otro procesador queda liberado para procesar otras
+instrucciones simultáneamente. Al usar una computadora con
+capacidades de multiproceso incrementamos su velocidad de respuesta
+y procesos. Casi todas las computadoras que tienen capacidad de
+multiproceso ofrecen una gran ventaja. Los primeros Sistemas
+Operativos Multiproceso realizaban lo que se conoce como: Multiproceso
+asimétrico: Una CPU principal retiene el control global de la
+computadora, así como el de los otros procesadores. Esto fue un primer
+paso hacia el multiproceso, pero no fue la dirección ideal a seguir ya que
+la CPU principal podía convertirse en un cuello de botella. Multiproceso
+simétrico: En un sistema multiproceso simétrico, no existe una CPU
+controladora única. La barrera a vencer al implementar el multiproceso
+simétrico es que los SO tienen que ser rediseñados o diseñados desde el
+principio para trabajar en u n ambiente multiproceso. Las extensiones de
+Unix, que soportan multiproceso asimétrico ya están disponibles y las
+extensiones simétricas se están haciendo disponibles. Windows NT de
+Microsoft soporta multiproceso simétrico. Lenguajes que tienen estas
+características: C, SQL, El UNIX y sus clones permiten múltiples tareas y
+múltiples usuarios. Su sistema de archivos proporciona un método
+sencillo de organizar archivos y permite la protección de archivos. Sin
+embargo, las instrucciones del UNIX no son intuitivas.
+Otros sistemas operativos multiusuario y multitarea son OS/2,
+desarrollado inicialmente por Microsoft Corporation e International
+Business Machines (IBM) y Windows, desarrollado por Microsoft.
+El sistema operativo multitarea de las computadoras Apple se denomina
+Macintosh OS.
+</p>
+
+</div>
+
+</section>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<section>
+
+  <h1>BIBLIOGRAFIA</h1>
+
+<p>Gutierrez, A. G. D.(s.f.). BASES DE DATOS. Recuperado 23 octubre, 2018, de https://aiu.edu/cursos/base%20de%20datos/pdf%20leccion%201/lecci%C3%B3n%201.pdf
+</p>
+
+</section>
+
+<div id="twiter">
+
+
+
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+
+
+	<div id= piepagina>
+
+
+
+
+            <a href="https://www.facebook.com/"> <img src="img\facebook.png"  width="90" height="90" border="4"></a>
+            <a href="twitter.com/login?lang=es"><img  src="img\twiter.jpg"  width="90" height="90" border="4">
+            </a>
+            <a href="https://www.instagram.com/"><img src="img\instagram.png"  width="90" height="90" border="4">
+            </a>
+
+
+            <p>Estudiante Ingenieria de Sistemas</p>
+            	<p>Victor Botia</p>
+      </p>  Copyright (c) 2018</p>
+       </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
